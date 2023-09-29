@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::before {
+    content: "";
+    width: 100%;
+    height: 436px;
+
+    background: #535971;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: -1;
+}
+
+body {
+    background-color: #EFEFEF;
+}
+
+.page {
+    background-color: #FFFFFF;
+    width: 750px;
+    border-radius: 20px 20px 0px 0px;
+    margin: auto;
+    padding: 64px 64px auto auto;
+}
+
+form {
+    margin-left: 64px;
+    padding-top: 25px;
+    padding-right: 64px;
+    padding-bottom: 64px;
+}
+
+header {
+    width: 417px;
+    margin-left: 300px;
+    margin-top: 140px;
+}
+
+header h1 {
+    color: #FFF;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header p {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 58px;
+
+    margin-top: 16px;
+}
+
+legend {
+    color: #535971;
+    font-family: 'Staatliches';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+label {
+    color: #4E4958;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+span {
+    color: #C1BCCC;
+font-family: 'Poppins';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
+}
+
+input {
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+    background-color: #FAFAFC;
+    height: 56px;
+}
+
+.name-lastName {
+    display: flex;
+    gap: 22px;
+}
+
+.name-lastName input {
+    width: 300px;
+}
+
+.mentor-date {
+    display: flex;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset legend {
+    border-bottom: 1px solid #E6E6F0;
+    padding-bottom: 16px;
+    padding-top: 30px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper label {
+    margin-top: 16px;
+    width: auto;
+}
+
+#first-mentoring, #second-mentoring {
+    width: 300px;
+    margin-right: 32px;
+}
+
+#start-mentoring, #end-mentoring {
+    margin-right: 8px;
+    width: 140px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    width: 750px;
+    height: 160px;
+    background-color: #535971;
+    border-radius: 0px 0px 20px 20px;
+    justify-content: center;
+    margin-bottom: 366px;
+}
+
+footer .button {
+    height: 56px;
+    width: 608px;
+    border-radius: 20px;
+    background: #FF5374;
+    padding: 15px 40px;
+    border: #FF5374;
+
+    color: #FFF;
+    font-family: 'Staatliches';
+    font-size: 20px;
+}
